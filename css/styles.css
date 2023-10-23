@@ -888,6 +888,14 @@ body ul {
   .footer-links-title {
     text-align-last: left;
   }
+
+  .footer-subscribe-form {
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+    gap: 24px;
+    margin-left: auto;
+  }
 }
 /*------------------------- 1200 -------------------------*/
 @media screen and (min-width: 1200px) {
@@ -952,5 +960,18 @@ body ul {
   .portfolio-img {
     width: 360px;
     height: 300px;
+  }
+  .footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .footer-container {
+    align-items: baseline;
+  }
+  .footer-logo-box {
+    margin-right: 120px;
+  }
+  .footer-soc-box {
+    margin-right: 80px;
   }
 }
