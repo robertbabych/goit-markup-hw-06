@@ -422,16 +422,23 @@ body ul {
 .footer {
   background-color: #2e2f42;
   color: #f4f4fd;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 96px;
+  padding-bottom: 96px;
+  /* padding-top: 100px;
+  padding-bottom: 100px; */
 }
 
 .footer-container {
   display: flex;
-  align-items: baseline;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 72px;
+  /* align-items: baseline; */
 }
 .footer-logo-box {
-  margin-right: 120px;
+  /* margin-right: 120px; */
+  text-align: center;
 }
 .footer-logo {
   font-family: 'Raleway', sans-serif;
@@ -460,6 +467,7 @@ body ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px;
+  text-align-last: left;
 }
 
 .footer-links-title {
@@ -482,7 +490,9 @@ body ul {
   fill: #f4f4fd;
 }
 .footer-soc-box {
-  margin-right: 80px;
+  /* margin-right: 80px; */
+  text-align: center;
+  align-items: center;
 }
 .footer-soc-link {
   width: 100%;
@@ -499,9 +509,12 @@ body ul {
   background-color: #31d0aa;
 }
 .footer-subscribe-box {
+  text-align: center;
+  align-items: center;
 }
 .footer-subscribe-form {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 24px;
