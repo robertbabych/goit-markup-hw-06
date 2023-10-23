@@ -841,7 +841,9 @@ body ul {
   .container {
     max-width: 766px;
   }
-
+  .footer {
+    display: flex;
+  }
   .approach-item {
     width: calc((100% - 24px) / 2);
   }
@@ -877,6 +879,7 @@ body ul {
   .footer-media-box {
     display: flex;
     align-items: baseline;
+    margin-bottom: 0;
   }
 
   .footer-logo-box {
@@ -891,10 +894,15 @@ body ul {
 
   .footer-subscribe-form {
     flex-direction: row;
-    align-items: start;
-    justify-content: center;
+    justify-content: start;
     gap: 24px;
-    margin-left: auto;
+  }
+  .footer {
+    display: flex;
+    justify-content: center;
+  }
+  .footer-container {
+    display: flex;
   }
 }
 /*------------------------- 1200 -------------------------*/
@@ -970,8 +978,10 @@ body ul {
   }
   .footer-logo-box {
     margin-right: 120px;
+    margin-bottom: 0;
   }
   .footer-soc-box {
     margin-right: 80px;
+    margin-bottom: 0;
   }
 }
