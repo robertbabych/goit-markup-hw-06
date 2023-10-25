@@ -173,8 +173,15 @@ body ul {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: auto;
 }
-
+.mob-menu.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
 .mob-menu-top {
 }
 .mob-close-btn {
@@ -279,6 +286,7 @@ body ul {
 .mob-soc-icon {
   fill: #f4f4fd;
 }
+
 /*=========== HERO ==============*/
 .hero {
   background-color: #2e2f42;
